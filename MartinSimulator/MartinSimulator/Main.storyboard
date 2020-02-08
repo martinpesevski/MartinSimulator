@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="db6-qj-h4d">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="aJm-bX-wUc">
+            <objects>
+                <viewController storyboardIdentifier="MainViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="db6-qj-h4d" customClass="MainViewController" customModule="MartinSimulator" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tb0-7h-M2l">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="Vaq-H8-lHQ">
+                                <rect key="frame" x="20" y="792" width="374" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kUV-2S-sOi" customClass="Button" customModule="MartinSimulator" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="60" height="50"/>
+                                        <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="60" id="fxS-YP-Ahd"/>
+                                            <constraint firstAttribute="height" constant="50" id="wP6-lu-GsG"/>
+                                        </constraints>
+                                        <state key="normal" title="Button">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="onKiss:" destination="db6-qj-h4d" eventType="touchUpInside" id="6KG-Zk-brP"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DiW-9R-0RR" customClass="Button" customModule="MartinSimulator" customModuleProvider="target">
+                                        <rect key="frame" x="104.5" y="0.0" width="60" height="50"/>
+                                        <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="1vd-KC-kcw"/>
+                                            <constraint firstAttribute="width" constant="60" id="akK-rP-eMt"/>
+                                        </constraints>
+                                        <state key="normal" title="Button">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="onPunch:" destination="db6-qj-h4d" eventType="touchUpInside" id="HpJ-e9-XpU"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QbX-8w-D6g" customClass="Button" customModule="MartinSimulator" customModuleProvider="target">
+                                        <rect key="frame" x="209.5" y="0.0" width="60" height="50"/>
+                                        <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="60" id="l9V-Ux-hWJ"/>
+                                            <constraint firstAttribute="height" constant="50" id="ter-W7-s19"/>
+                                        </constraints>
+                                        <state key="normal" title="Button">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="onSpeakDown:" destination="db6-qj-h4d" eventType="touchDown" id="yAp-he-jK2"/>
+                                            <action selector="onSpeakUp:" destination="db6-qj-h4d" eventType="touchUpInside" id="mqQ-hN-wq5"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qaa-oi-Qbj" customClass="Button" customModule="MartinSimulator" customModuleProvider="target">
+                                        <rect key="frame" x="314" y="0.0" width="60" height="50"/>
+                                        <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="576-T0-07O"/>
+                                            <constraint firstAttribute="width" constant="60" id="CQr-TG-6lN"/>
+                                        </constraints>
+                                        <state key="normal" title="Button">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="onActionDown:" destination="db6-qj-h4d" eventType="touchDown" id="CtS-Vc-tcf"/>
+                                            <action selector="onActionUp:" destination="db6-qj-h4d" eventType="touchUpInside" id="LLL-J3-GzF"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="lEg-iQ-9LG"/>
+                                </constraints>
+                            </stackView>
+                            <stackView hidden="YES" opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="5rK-lS-Dg6" userLabel="speakStack">
+                                <rect key="frame" x="229.5" y="562" width="60" height="215"/>
+                                <subviews>
+                                    <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LrG-im-YpB" customClass="Button" customModule="MartinSimulator" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="60" height="50"/>
+                                        <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="60" id="JfZ-b3-E0a"/>
+                                            <constraint firstAttribute="height" constant="50" id="OIm-PU-yf7"/>
+                                        </constraints>
+                                        <state key="normal" title="Button">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="onSpeak:" destination="db6-qj-h4d" eventType="touchUpInside" id="I4E-wH-EN7"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cq3-f1-bDg" customClass="Button" customModule="MartinSimulator" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="55" width="60" height="50"/>
+                                        <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="33b-Eh-DGL"/>
+                                            <constraint firstAttribute="width" constant="60" id="QW3-Rv-QqQ"/>
+                                        </constraints>
+                                        <state key="normal" title="Button">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="onSpeak:" destination="db6-qj-h4d" eventType="touchUpInside" id="5bM-TL-33a"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dg8-bo-BXx" customClass="Button" customModule="MartinSimulator" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="110" width="60" height="50"/>
+                                        <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="D6y-40-AlU"/>
+                                            <constraint firstAttribute="width" constant="60" id="cWW-Jt-DXn"/>
+                                        </constraints>
+                                        <state key="normal" title="Button">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="onSpeak:" destination="db6-qj-h4d" eventType="touchUpInside" id="lBR-CJ-0rF"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tgP-ed-Kaz" customClass="Button" customModule="MartinSimulator" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="165" width="60" height="50"/>
+                                        <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="60" id="7Dk-9P-VDI"/>
+                                            <constraint firstAttribute="height" constant="50" id="UY8-Jx-N5x"/>
+                                        </constraints>
+                                        <state key="normal" title="Button">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="onSpeak:" destination="db6-qj-h4d" eventType="touchUpInside" id="HX6-y4-mMH"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView hidden="YES" opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="rWL-7P-Fnr" userLabel="actionStack">
+                                <rect key="frame" x="334" y="562" width="60" height="215"/>
+                                <subviews>
+                                    <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jEl-DP-ZXs" customClass="Button" customModule="MartinSimulator" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="60" height="50"/>
+                                        <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="60" id="sop-Tk-tdK"/>
+                                            <constraint firstAttribute="height" constant="50" id="yll-kd-r1n"/>
+                                        </constraints>
+                                        <state key="normal" title="Button">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="onAction:" destination="db6-qj-h4d" eventType="touchUpInside" id="ohr-at-d8O"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kyt-2r-xu0" customClass="Button" customModule="MartinSimulator" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="55" width="60" height="50"/>
+                                        <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="60" id="EOw-YI-uy3"/>
+                                            <constraint firstAttribute="height" constant="50" id="yaD-zk-TlD"/>
+                                        </constraints>
+                                        <state key="normal" title="Button">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="onAction:" destination="db6-qj-h4d" eventType="touchUpInside" id="gHq-FN-F9b"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RQa-CK-A9Z" customClass="Button" customModule="MartinSimulator" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="110" width="60" height="50"/>
+                                        <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="60" id="ivA-PX-vR1"/>
+                                            <constraint firstAttribute="height" constant="50" id="m4O-N2-oJL"/>
+                                        </constraints>
+                                        <state key="normal" title="Button">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="onAction:" destination="db6-qj-h4d" eventType="touchUpInside" id="aao-20-Zyt"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wn8-Ru-817" customClass="Button" customModule="MartinSimulator" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="165" width="60" height="50"/>
+                                        <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="60" id="Veh-sn-ITh"/>
+                                            <constraint firstAttribute="height" constant="50" id="wMx-tN-BET"/>
+                                        </constraints>
+                                        <state key="normal" title="Button">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="onAction:" destination="db6-qj-h4d" eventType="touchUpInside" id="2yq-lD-lur"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="bJw-6q-bdX" firstAttribute="trailing" secondItem="Vaq-H8-lHQ" secondAttribute="trailing" constant="20" id="1FT-o1-EAG"/>
+                            <constraint firstItem="5rK-lS-Dg6" firstAttribute="centerX" secondItem="QbX-8w-D6g" secondAttribute="centerX" id="En8-QN-n6A"/>
+                            <constraint firstItem="Vaq-H8-lHQ" firstAttribute="leading" secondItem="bJw-6q-bdX" secondAttribute="leading" constant="20" id="GsM-yt-p0v"/>
+                            <constraint firstItem="QbX-8w-D6g" firstAttribute="top" secondItem="5rK-lS-Dg6" secondAttribute="bottom" constant="15" id="NW1-a8-opX"/>
+                            <constraint firstItem="rWL-7P-Fnr" firstAttribute="bottom" secondItem="5rK-lS-Dg6" secondAttribute="bottom" id="hG3-KP-cD3"/>
+                            <constraint firstItem="rWL-7P-Fnr" firstAttribute="centerX" secondItem="Qaa-oi-Qbj" secondAttribute="centerX" id="mlq-3Q-0z7"/>
+                            <constraint firstItem="bJw-6q-bdX" firstAttribute="bottom" secondItem="Vaq-H8-lHQ" secondAttribute="bottom" constant="20" id="uNg-LM-c6X"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="bJw-6q-bdX"/>
+                    </view>
+                    <connections>
+                        <outlet property="onSpeak" destination="En8-QN-n6A" id="byS-1c-hyF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Pp-UP-RFV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-149" y="80"/>
+        </scene>
+    </scenes>
+</document>
