@@ -13,6 +13,7 @@
 		C7838F9023EF5D7A00348200 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7838F8E23EF5D7A00348200 /* LaunchScreen.storyboard */; };
 		C7838F9923EF5D9C00348200 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7838F9723EF5D9C00348200 /* Main.storyboard */; };
 		C7838F9A23EF5D9C00348200 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7838F9823EF5D9C00348200 /* MainViewController.swift */; };
+		C7838F9C23EF6F9300348200 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7838F9B23EF6F9300348200 /* Button.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C7838F9123EF5D7A00348200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7838F9723EF5D9C00348200 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		C7838F9823EF5D9C00348200 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		C7838F9B23EF6F9300348200 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				C7838F8323EF5D7900348200 /* AppDelegate.swift */,
 				C7838F8523EF5D7900348200 /* SceneDelegate.swift */,
 				C7838F9823EF5D9C00348200 /* MainViewController.swift */,
+				C7838F9B23EF6F9300348200 /* Button.swift */,
 				C7838F9723EF5D9C00348200 /* Main.storyboard */,
 				C7838F8C23EF5D7A00348200 /* Assets.xcassets */,
 				C7838F8E23EF5D7A00348200 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				C7838F9A23EF5D9C00348200 /* MainViewController.swift in Sources */,
 				C7838F8423EF5D7900348200 /* AppDelegate.swift in Sources */,
 				C7838F8623EF5D7900348200 /* SceneDelegate.swift in Sources */,
+				C7838F9C23EF6F9300348200 /* Button.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
