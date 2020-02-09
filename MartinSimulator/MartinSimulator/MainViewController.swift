@@ -17,11 +17,14 @@ class MainViewController: UIViewController {
         super.viewDidLoad()
     }
     
-    @IBAction func onKiss(_ sender: Any) {
-        NSLog("kiss")
+    @IBAction func onKiss(_ sender: Button) {
+        sender.isSelected = !sender.isSelected
+        sender.containerView.backgroundColor = sender.isSelected ? UIColor.white : Button.backgroundColor
     }
-    @IBAction func onPunch(_ sender: Any) {
-        NSLog("punch")
+    
+    @IBAction func onPunch(_ sender: Button) {
+        sender.isSelected = !sender.isSelected
+        sender.containerView.backgroundColor = sender.isSelected ? UIColor.white : Button.backgroundColor
     }
     
     @IBAction func onSpeak(_ sender: Button) {
@@ -33,7 +36,9 @@ class MainViewController: UIViewController {
         default: return
         }
     }
-    @IBAction func onSpeakUp(_ sender: Any) {
+    @IBAction func onSpeakUp(_ sender: Button) {
+        sender.isSelected = !sender.isSelected
+        sender.containerView.backgroundColor = sender.isSelected ? UIColor.white : Button.backgroundColor
         actionStack.fadeOut()
         speakStack.alpha == 0 ? speakStack.fadeIn() : speakStack.fadeOut()
     }
@@ -47,7 +52,9 @@ class MainViewController: UIViewController {
         }
     }
     
-    @IBAction func onActionUp(_ sender: Any) {
+    @IBAction func onActionUp(_ sender: Button) {
+        sender.isSelected = !sender.isSelected
+        sender.containerView.backgroundColor = sender.isSelected ? UIColor.white : Button.backgroundColor
         speakStack.fadeOut()
         actionStack.alpha == 0 ? actionStack.fadeIn() : actionStack.fadeOut()
     }

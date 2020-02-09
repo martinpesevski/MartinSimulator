@@ -9,17 +9,19 @@
 import UIKit
 
 class Button: UIButton {
+    let containerView = UIImageView()
+    static let backgroundColor = UIColor(red: 0.841434, green: 0.711957, blue: 0.933317, alpha: 1)
+
     override func didMoveToWindow() {
         layer.shadowColor = UIColor.black.cgColor
         layer.shadowOffset = CGSize(width: 2, height: 2)
         layer.shadowRadius = 2
         layer.shadowOpacity = 0.6
+        layer.backgroundColor = UIColor.clear.cgColor
 
-        let containerView = UIImageView()
         containerView.layer.cornerRadius = frame.height/2
         containerView.layer.masksToBounds = true
-        containerView.backgroundColor = backgroundColor
-        layer.backgroundColor = UIColor.clear.cgColor
+        containerView.backgroundColor = Button.backgroundColor
         containerView.isUserInteractionEnabled = false
         containerView.image = image(for: .normal)
         containerView.contentMode = .center

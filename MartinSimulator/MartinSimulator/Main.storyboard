@@ -20,7 +20,7 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kUV-2S-sOi" customClass="Button" customModule="MartinSimulator" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="60" height="50"/>
-                                        <color key="backgroundColor" red="0.84143370389938354" green="0.71195715665817261" blue="0.93331706523895264" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.84143030640000005" green="0.71250832080000004" blue="0.93153637649999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="60" id="fxS-YP-Ahd"/>
                                             <constraint firstAttribute="height" constant="50" id="wP6-lu-GsG"/>
