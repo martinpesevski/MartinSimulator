@@ -46,28 +46,28 @@
                                             <action selector="onPunch:" destination="db6-qj-h4d" eventType="touchUpInside" id="HpJ-e9-XpU"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QbX-8w-D6g" customClass="Button" customModule="MartinSimulator" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QbX-8w-D6g" customClass="Button" customModule="MartinSimulator" customModuleProvider="target">
                                         <rect key="frame" x="209.5" y="0.0" width="60" height="50"/>
                                         <color key="backgroundColor" red="0.84143370389938354" green="0.71195715665817261" blue="0.93331706523895264" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="60" id="l9V-Ux-hWJ"/>
                                             <constraint firstAttribute="height" constant="50" id="ter-W7-s19"/>
                                         </constraints>
-                                        <state key="normal" title="Button">
+                                        <state key="normal" image="chat">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
                                             <action selector="onSpeakUp:" destination="db6-qj-h4d" eventType="touchUpInside" id="mqQ-hN-wq5"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qaa-oi-Qbj" customClass="Button" customModule="MartinSimulator" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qaa-oi-Qbj" customClass="Button" customModule="MartinSimulator" customModuleProvider="target">
                                         <rect key="frame" x="314" y="0.0" width="60" height="50"/>
                                         <color key="backgroundColor" red="0.84143370389938354" green="0.71195715665817261" blue="0.93331706523895264" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="576-T0-07O"/>
                                             <constraint firstAttribute="width" constant="60" id="CQr-TG-6lN"/>
                                         </constraints>
-                                        <state key="normal" title="Button">
+                                        <state key="normal" image="workout">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
@@ -82,56 +82,56 @@
                             <stackView opaque="NO" alpha="0.0" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="5rK-lS-Dg6" userLabel="speakStack">
                                 <rect key="frame" x="229.5" y="562" width="60" height="215"/>
                                 <subviews>
-                                    <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LrG-im-YpB" customClass="Button" customModule="MartinSimulator" customModuleProvider="target">
+                                    <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LrG-im-YpB" customClass="Button" customModule="MartinSimulator" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="60" height="50"/>
-                                        <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.84143370389938354" green="0.71195715665817261" blue="0.93331706523895264" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="60" id="JfZ-b3-E0a"/>
                                             <constraint firstAttribute="height" constant="50" id="OIm-PU-yf7"/>
                                         </constraints>
-                                        <state key="normal" title="Button">
+                                        <state key="normal" image="love-speak">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
                                             <action selector="onSpeak:" destination="db6-qj-h4d" eventType="touchUpInside" id="qR8-Jx-iqf"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cq3-f1-bDg" customClass="Button" customModule="MartinSimulator" customModuleProvider="target">
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cq3-f1-bDg" customClass="Button" customModule="MartinSimulator" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="55" width="60" height="50"/>
-                                        <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.84143370389938354" green="0.71195715665817261" blue="0.93331706523895264" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="33b-Eh-DGL"/>
                                             <constraint firstAttribute="width" constant="60" id="QW3-Rv-QqQ"/>
                                         </constraints>
-                                        <state key="normal" title="Button">
+                                        <state key="normal" image="sorry">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
                                             <action selector="onSpeak:" destination="db6-qj-h4d" eventType="touchUpInside" id="n4g-sq-h8j"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dg8-bo-BXx" customClass="Button" customModule="MartinSimulator" customModuleProvider="target">
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dg8-bo-BXx" customClass="Button" customModule="MartinSimulator" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="110" width="60" height="50"/>
-                                        <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.84143370389938354" green="0.71195715665817261" blue="0.93331706523895264" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="D6y-40-AlU"/>
                                             <constraint firstAttribute="width" constant="60" id="cWW-Jt-DXn"/>
                                         </constraints>
-                                        <state key="normal" title="Button">
+                                        <state key="normal" image="compliment">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
                                             <action selector="onSpeak:" destination="db6-qj-h4d" eventType="touchUpInside" id="X05-N4-6Tk"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tgP-ed-Kaz" customClass="Button" customModule="MartinSimulator" customModuleProvider="target">
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tgP-ed-Kaz" customClass="Button" customModule="MartinSimulator" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="165" width="60" height="50"/>
-                                        <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.84143370389938354" green="0.71195715665817261" blue="0.93331706523895264" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="60" id="7Dk-9P-VDI"/>
                                             <constraint firstAttribute="height" constant="50" id="UY8-Jx-N5x"/>
                                         </constraints>
-                                        <state key="normal" title="Button">
+                                        <state key="normal" image="poop">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
@@ -143,56 +143,56 @@
                             <stackView opaque="NO" alpha="0.0" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="rWL-7P-Fnr" userLabel="actionStack">
                                 <rect key="frame" x="334" y="562" width="60" height="215"/>
                                 <subviews>
-                                    <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jEl-DP-ZXs" customClass="Button" customModule="MartinSimulator" customModuleProvider="target">
+                                    <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jEl-DP-ZXs" customClass="Button" customModule="MartinSimulator" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="60" height="50"/>
-                                        <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.84143370389938354" green="0.71195715665817261" blue="0.93331706523895264" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="60" id="sop-Tk-tdK"/>
                                             <constraint firstAttribute="height" constant="50" id="yll-kd-r1n"/>
                                         </constraints>
-                                        <state key="normal" title="Button">
+                                        <state key="normal" image="butt">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
                                             <action selector="onAction:" destination="db6-qj-h4d" eventType="touchUpInside" id="ohr-at-d8O"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kyt-2r-xu0" customClass="Button" customModule="MartinSimulator" customModuleProvider="target">
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kyt-2r-xu0" customClass="Button" customModule="MartinSimulator" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="55" width="60" height="50"/>
-                                        <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.84143370389938354" green="0.71195715665817261" blue="0.93331706523895264" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="60" id="EOw-YI-uy3"/>
                                             <constraint firstAttribute="height" constant="50" id="yaD-zk-TlD"/>
                                         </constraints>
-                                        <state key="normal" title="Button">
+                                        <state key="normal" image="jump">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
                                             <action selector="onAction:" destination="db6-qj-h4d" eventType="touchUpInside" id="gHq-FN-F9b"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RQa-CK-A9Z" customClass="Button" customModule="MartinSimulator" customModuleProvider="target">
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RQa-CK-A9Z" customClass="Button" customModule="MartinSimulator" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="110" width="60" height="50"/>
-                                        <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.84143370389938354" green="0.71195715665817261" blue="0.93331706523895264" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="60" id="ivA-PX-vR1"/>
                                             <constraint firstAttribute="height" constant="50" id="m4O-N2-oJL"/>
                                         </constraints>
-                                        <state key="normal" title="Button">
+                                        <state key="normal" image="dance">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
                                             <action selector="onAction:" destination="db6-qj-h4d" eventType="touchUpInside" id="aao-20-Zyt"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wn8-Ru-817" customClass="Button" customModule="MartinSimulator" customModuleProvider="target">
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wn8-Ru-817" customClass="Button" customModule="MartinSimulator" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="165" width="60" height="50"/>
-                                        <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.84143370389938354" green="0.71195715665817261" blue="0.93331706523895264" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="60" id="Veh-sn-ITh"/>
                                             <constraint firstAttribute="height" constant="50" id="wMx-tN-BET"/>
                                         </constraints>
-                                        <state key="normal" title="Button">
+                                        <state key="normal" image="fall">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
@@ -225,7 +225,17 @@
         </scene>
     </scenes>
     <resources>
-        <image name="boxing-glove" width="25" height="25"/>
-        <image name="kiss" width="24" height="24"/>
+        <image name="boxing-glove" width="50" height="50"/>
+        <image name="butt" width="50" height="50"/>
+        <image name="chat" width="50" height="50"/>
+        <image name="compliment" width="50" height="50"/>
+        <image name="dance" width="50" height="50"/>
+        <image name="fall" width="50" height="50"/>
+        <image name="jump" width="50" height="50"/>
+        <image name="kiss" width="48" height="48"/>
+        <image name="love-speak" width="48" height="48"/>
+        <image name="poop" width="50" height="50"/>
+        <image name="sorry" width="45" height="45"/>
+        <image name="workout" width="50" height="50"/>
     </resources>
 </document>
